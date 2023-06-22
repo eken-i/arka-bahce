@@ -4,7 +4,7 @@ from discord.ext import commands
 
 
 def run_discord_bot():
-    TOKEN = "MTEyMTQ2MTAyMzczNjU5ODU2OQ.GI-stR.-ghhP8B3Ui4Px9QFGmC2LzTeIsppdp810xZmsI"
+    TOKEN = "TOKEN"
     intents = discord.Intents.default()
     intents.message_content = True
     client = commands.Bot(command_prefix='.', intents=intents)
