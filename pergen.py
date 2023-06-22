@@ -3,7 +3,7 @@ import pyttsx3
 import openai
 
 r = sr.Recognizer()
-openai.api_key = "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"
+openai.api_key = "TOKEN"
 
 
 def SpeakText(command):
